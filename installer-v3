@@ -145,7 +145,10 @@ echo  $white" Inviet Kode :2bk340dk94 | Inviet Kode 154d955b9 |Inviet>
 echo  $red" Masukin Kode Itu Ke Rendemm Pulsa Kalian ^_^"
 exit
 fi
-                                                                      if [ $bro = 08 ] || [ $bro = 8 ]then
+  
+  
+if [ $bro = 08 ] || [ $bro = 8 ]
+then                                                              if [ $bro = 08 ] || [ $bro = 8 ]then
 clear
 echo  $red" Installing Ubuntu "
 sleep 1
@@ -179,6 +182,8 @@ echo " Untuk menjalankannya ketik "mpsyt"
 tanpa tanda petik "
 echo  $red" T E R I N S T A L L "
 exit
+fi
+
 if [ $bro = 10 ] || [ $bro = 10 ]
 then
 clear
@@ -211,7 +216,8 @@ echo  $red" T E R I N S T A L L "
 exit
 fi
 
-if [ $bro = 12 ] || [ $bro = 12 ]then
+if [ $bro = 12 ] || [ $bro = 12 ]
+then
 clear
 echo  $red"installing bajinganv6"
 pkg install php
